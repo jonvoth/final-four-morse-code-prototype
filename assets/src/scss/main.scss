@@ -1,0 +1,46 @@
+// @import 'bootstrap';
+// @import 'variables';
+
+// @import 'bootstrap/buttons';
+// @import 'bootstrap/scaffolding';
+
+// @import 'custom';
+
+//@import 'theme/example';
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blinker {
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.btn-start {
+    font-size: 20vw;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    border: 1vw solid #ffffff;
+    margin: 0;
+    padding: 0 4vw;
+    border-radius: 2vw;
+    width: auto;
+    overflow: visible;
+    font-family: inherit;
+    background: transparent;
+    text-transform: uppercase;
+}
+.warning-message {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate3d(-50%,0,0);
+    width: 90%;
+    max-width: 60em;
+    font-size: 16px;
+}
